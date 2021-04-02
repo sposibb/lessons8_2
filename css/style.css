@@ -10,18 +10,9 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 p{
-    padding-top: 25px;
-    padding-left: 25px;
     margin-bottom: 20px;
-    width: 106px;
-    height: 16px;
     color: #818181;
     font-family: 'Raleway';
     font-style: normal;
@@ -30,37 +21,50 @@ p{
     line-height: 16px;
 }
 h2{
+    padding-left: 24px;
+    padding-bottom: 11px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 35px;
     color: #FFFFFF;
-    width: 419px;
-    height: 70px;
 }
 h3{
-    padding-left: 25px;
-    padding-bottom: 71px;
+    flex-grow: 1;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
     color: #1D1D1D;
-    width: 266px;
-    height: 78px;
 }
- .col-4{
-     margin: 20px;
-    width: 360px;
+.big_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: url(../img/Car.png) center center no-repeat;
+    background-size: cover;
     height: 540px;
-    background-color: #FFFFFF;;
 }
-span{
-    padding-left: 25px;
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    height: 540px;
 }
-.col-8{
-
-    background: url(../img/Car.png) 0 center no-repeat;
+.thumbnail{
+    width: 100%;
+}
+.body{
+    flex-grow: 1;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.p1{
+    color: white;
+    padding-left: 24px;
+    padding-bottom: 10px;
 }
