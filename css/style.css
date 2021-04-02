@@ -8,46 +8,19 @@ body{
 }
 .container{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items:flex-end;
-    justify-content: space-around;
-}
-.col-1{
-    background: url(../img/Car.png) center center no-repeat white;
-    width: 740px;
-    height: 540px;
-}
-.col-2{
-    background: url(../img//Thumbnail2.png) center 0px no-repeat white;
-    width: 360px;
-    height: 540px;
-}
-.col-3{
-    background: url(../img//Thumbnail3.png) center 0px no-repeat white;
-    width: 340px;
-    height: 540px;
-
-}
-.col-4{
-    background: url(../img//Thumbnail4.png) center 0px no-repeat  white;
-    width: 340px;
-    height: 540px;
-
-   
-}
-.col-5{
-    background: url(../img//Thumbnail5.png) center 0px no-repeat white ;
-    width: 340px;
-    height: 540px;
-    display: flex;
-  align-items: center;
-  
+    justify-content: space-between;
 }
 p{
+    padding-left: 25px;
+    margin-bottom: 20px;
+    width: 106px;
+    height: 16px;
     color: #818181;
     font-family: 'Raleway';
     font-style: normal;
@@ -62,12 +35,34 @@ h2{
     font-size: 30px;
     line-height: 35px;
     color: #FFFFFF;
+    width: 419px;
+    height: 70px;
 }
 h3{
+    padding-left: 25px;
+    padding-bottom: 71px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
     color: #1D1D1D;
+    width: 266px;
+    height: 78px;
+}
+ .col-4{
+     margin: 20px;
+    width: 360px;
+    height: 540px;
+    background-color: #FFFFFF;;
+}
+span{
+    padding-left: 25px;
+}
+img{
+   
+}
+.col-8{
+
+    background: url(../img/Car.png) 0 center no-repeat;
 }
