@@ -17,6 +17,7 @@ body{
     justify-content: space-between;
 }
 p{
+    padding-top: 25px;
     padding-left: 25px;
     margin-bottom: 20px;
     width: 106px;
